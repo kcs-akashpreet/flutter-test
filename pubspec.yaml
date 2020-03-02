@@ -1,10 +1,15 @@
-name: hello_world
-description: A bare-bones hello world app
+name: helloworld
+description:  sample client and server.
+homepage: https://github.com/dart-lang/grpc-dart
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
 
 dependencies:
-  flutter:
-    sdk: flutter
+  async: ^2.2.0
+  grpc:
+    path: ../../
+  protobuf: ^0.13.12
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  test: ^1.6.4
